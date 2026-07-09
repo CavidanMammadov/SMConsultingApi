@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SMConsulting.API/SMConsulting.API.csproj" />
+  <Project Path="SMConsulting.BL/SMConsulting.BL.csproj" />
+  <Project Path="SMConsulting.Core/SMConsulting.Core.csproj" />
+  <Project Path="SMConsulting.DAL/SMConsulting.DAL.csproj" />
+</Solution>

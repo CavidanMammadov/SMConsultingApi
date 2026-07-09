@@ -1,0 +1,19 @@
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SMConsulting.BL.DTOs.Member
+{
+    public class MemberUpdateDto
+    {
+        public string MemberFullName { get; set; }
+        public string MemberPosition { get; set; }
+        public IFormFile? MemberImage { get; set; }
+        public string MemberPhone { get; set; }
+        public string? MemberEmail { get; set; }
+        public string MemberDescription { get; set; }
+    }
+}
